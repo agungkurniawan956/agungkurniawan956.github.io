@@ -32,3 +32,11 @@
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-4;
 }
+
+.portfolio-card {
+  @apply mb-6 overflow-hidden rounded-xl shadow-md;
+}
+
+.portfolio-img {
+  @apply h-full w-full max-w-full object-cover object-top transition duration-300 hover:scale-110;
+}
