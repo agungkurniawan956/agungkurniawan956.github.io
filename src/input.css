@@ -40,3 +40,7 @@
 .portfolio-img {
   @apply h-full w-full max-w-full object-cover object-top transition duration-300 hover:scale-110;
 }
+
+.blog-card-img {
+  @apply w-full object-cover object-center;
+}

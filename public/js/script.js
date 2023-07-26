@@ -43,3 +43,10 @@ if (
 } else {
   darkToggle.checked = false;
 }
+
+// contact alert close
+const closeAlert = document.querySelector(".contact-alert");
+
+closeAlert.addEventListener("click", function () {
+  closeAlert.classList.toggle("hidden");
+});
